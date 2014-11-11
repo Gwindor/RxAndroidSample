@@ -11,10 +11,15 @@
 # Generated files
 bin/
 gen/
+lint.xml
+build/
 
 # Gradle files
 .gradle/
 build/
+
+# Mac-specific stuff
+.DS_Store
 
 # Local configuration file (sdk path, etc)
 local.properties
@@ -24,3 +29,13 @@ proguard/
 
 # Log Files
 *.log
+
+# Gradle
+.gradle
+
+# Intellij project files
+.idea
+.idea/workspace.xml
+gen-external-apklibs/
+
+
